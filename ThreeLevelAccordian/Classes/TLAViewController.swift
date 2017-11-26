@@ -195,6 +195,7 @@ open class TLAViewController: UIViewController {
                 }
                 
             } else {
+                // This is comment by Yuki-Inoue
                 if (self.cells.count < headerIdx) { return }
                 if (self.cells[headerIdx] is TLASubItem) {
                     self.cells[headerIdx].isHidden = isHidden
